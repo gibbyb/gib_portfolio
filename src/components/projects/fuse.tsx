@@ -14,13 +14,13 @@ export default function Fuse() {
         <AccordionItem value="item-1">
           <AccordionTrigger>
             <div className="flex flex-row">
-              <h1 className="md:text-2xl font-semibold text-center">
+              <h1 className="text-lg md:text-2xl font-semibold text-center">
                 Fuse (React Native, Next.js, & PostgreSQL)
               </h1>
               <Link href="https://git.gbrown.org/gib/fuse_expo"
                 className="my-auto"
               >
-                < FaGithub className="my-auto ml-2 mr-4" size={22} />
+                < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={22} />
               </Link>
             </div>
           </AccordionTrigger>
@@ -39,6 +39,15 @@ export default function Fuse() {
                 </Link>. ‎This Web Application connects to a PostgreSQL Database & is
                 also self-hosted using a Docker Container.
               </p>
+              <video
+                src="/videos/FuseRNDemo.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="rounded-lg shadow-lg my-4 mx-auto w-[120px] md:w-[200px]"
+              />
+
             </div>
           </AccordionContent>
         </AccordionItem>

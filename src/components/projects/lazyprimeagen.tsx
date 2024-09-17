@@ -14,13 +14,13 @@ export default function LazyPrimeagen() {
         <AccordionItem value="item-1">
           <AccordionTrigger>
             <div className="flex flex-row mx-auto">
-              <h1 className="md:text-2xl font-semibold text-center mx-auto">
+              <h1 className="text-lg md:text-2xl font-semibold text-center mx-auto">
                 Lazy Primeagen Neovim Config (Lua)
               </h1>
               <Link href="https://github.com/gibbyb/Lazy_Primeagen"
                 className="my-auto"
               >
-                < FaGithub className="my-auto ml-2" size={22} />
+                < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={22} />
               </Link>
             </div>
           </AccordionTrigger>

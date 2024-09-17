@@ -3,7 +3,7 @@ import Image from "next/image";
 export function PFPName() {
   return (
     <div className="flex flex-row items-center justify-center">
-      <Image src={"/gib_pfp.jpg"} alt={"Gabriel's Profile Picture"}
+      <Image src={"/original.png"} alt={"Gabriel's Profile Picture"}
         width={80} height={80} className="rounded-full my-2"
       />
       <div className="mx-4 text-center my-auto">

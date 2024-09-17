@@ -13,7 +13,7 @@ export default function TechTracker() {
       <Accordion type="single" collapsible className="w-5/6 md:w-1/3">
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            <h1 className="md:text-2xl font-semibold text-center mx-auto">Tech Tracker (Next.js, Swift & MySQL)</h1>
+            <h1 className="text-lg md:text-2xl font-semibold text-center mx-auto">Tech Tracker (Next.js, Swift & MySQL)</h1>
           </AccordionTrigger>
           <AccordionContent>
             <div className="flex flex-col">
@@ -26,7 +26,7 @@ export default function TechTracker() {
                 <Link href="https://git.gbrown.org/gib/Tech_Tracker_Web"
                   className="my-auto"
                   >
-                  < FaGithub className="my-auto ml-2" size={22} />
+                  < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={22} />
                 </Link>
               </div>
               <p className="indent-4">
@@ -65,7 +65,7 @@ export default function TechTracker() {
                 loop
                 muted
                 playsInline
-                className="rounded-lg shadow-lg my-4 mx-auto w-[200px]"
+                className="rounded-lg shadow-lg my-4 mx-auto w-[120px] md:w-[200px]"
               />
             </div>
           </AccordionContent>
