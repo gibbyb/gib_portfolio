@@ -27,18 +27,17 @@ export default function Fuse() {
           <AccordionContent>
             <div className="flex flex-col">
               <p className="indent-4">
-                Fuse is an Expo Application that served as a way to learn React
-                Native. This application was made for my girlfriend & I in order to send
-                each other messages, as well as provide a countdown timer for the next
-                time we would be together, as we are in a long distance relationship.
-                This application uses API&apos;s provided by a ‎ 
+                Fuse is an Expo Application that served as a way to learn React Native. This
+                application was made for my girlfriend & I in order to send each other
+                messages, as well as provide a countdown timer for the next time we would be
+                together, as we are in a long distance relationship. This application uses
+                API&apos;s provided by a 
                 <Link href="https://ismadelinethecutest.gibbyb.com"
                   className="underline hover:text-blue-500"
                 >
-                   Next.js Web Application I also made for my girlfriend.
-                </Link>
-                ‎ This Web Application connect to a PostgreSQL
-                Database & is also self-hosted using a Docker Container.
+                  ‎ Next.js Web Application I also made for my girlfriend.
+                </Link>. ‎This Web Application connects to a PostgreSQL Database & is
+                also self-hosted using a Docker Container.
               </p>
             </div>
           </AccordionContent>
