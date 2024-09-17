@@ -10,11 +10,11 @@ import { FaGithub } from "react-icons/fa";
 export default function TenantPortal() {
   return (
     <section className="my-6 flex flex-col items-center justify-center m-auto">
-      <Accordion type="single" collapsible className="w-1/3">
+      <Accordion type="single" collapsible className="w-5/6 md:w-1/3">
         <AccordionItem value="item-1">
           <AccordionTrigger>
             <div className="flex flex-row mx-auto">
-              <h1 className="text-2xl font-semibold text-center mx-auto">
+              <h1 className="md:text-2xl font-semibold text-center mx-auto">
                 Tenant Portal (Next.js & PostgreSQL)
               </h1>
               <Link href="https://git.gbrown.org/gib/rent_portal"

@@ -10,7 +10,7 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "~/components/ui/chart"
+} from "~/components/ui/chart2"
 
 const chartData = [
   { technology: "Linux", proficiency: 95 },
@@ -44,8 +44,8 @@ export default function Component() {
             data={chartData}
             layout="vertical"
             margin={{
-              left: 60,
-              right: 60,
+              left: 0,
+              right: 0,
               top: 0,
               bottom: 0,
             }}
@@ -58,6 +58,7 @@ export default function Component() {
               axisLine={false}
               tickLine={false}
               fontSize={12}
+              width={1000}
             />
             <YAxis
               dataKey="technology"
