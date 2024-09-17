@@ -18,6 +18,7 @@ const chartData = [
   { technology: "TypeScript", proficiency: 85 },
   { technology: "Next.js", proficiency: 80 },
   { technology: "React", proficiency: 80 },
+  { technology: "SQL", proficiency: 80 },
   { technology: "React Native", proficiency: 75 },
   { technology: "Java", proficiency: 75 },
   { technology: "PHP", proficiency: 70 },
@@ -34,7 +35,7 @@ const chartConfig = {
 
 export default function Component() {
   return (
-    <Card className="max-w-xl mx-auto">
+    <Card className="max-w-2xl mx-auto">
       <CardHeader/>
       <CardContent>
         <ChartContainer config={chartConfig}>
@@ -63,7 +64,7 @@ export default function Component() {
               type="category"
               tickLine={false}
               axisLine={false}
-              width={90}
+              width={100}
             />
             <ChartTooltip
               cursor={false}
