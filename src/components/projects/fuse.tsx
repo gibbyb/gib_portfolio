@@ -13,7 +13,7 @@ export default function Fuse() {
       <Accordion type="single" collapsible className="w-5/6 md:w-1/3">
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            <div className="flex flex-row">
+            <div className="flex flex-row mx-auto">
               <h1 className="text-lg md:text-2xl font-semibold text-center">
                 Fuse (React Native, Next.js, & PostgreSQL)
               </h1>
