@@ -1,5 +1,6 @@
+"use server"
 
-const AboutMe = () => {
+export default async function AboutMe() {
   return (
     <section className="my-6 flex flex-col items-center justify-center">
       <h2 className="text-3xl font-semibold mb-4">About Me</h2>
@@ -20,4 +21,3 @@ const AboutMe = () => {
     </section>
   );
 }
-export default AboutMe;

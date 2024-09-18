@@ -1,6 +1,7 @@
+"use server"
 import Image from "next/image";
 
-export function PFPName() {
+export async function PFPName() {
   return (
     <div className="flex flex-row items-center justify-center">
       <Image src={"/original.png"} alt={"Gabriel's Profile Picture"}
