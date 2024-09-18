@@ -8,12 +8,12 @@ const chartData = [
   { technology: "TypeScript", proficiency: 85 },
   { technology: "Next.js", proficiency: 80 },
   { technology: "React", proficiency: 80 },
-  { technology: "SQL", proficiency: 80 },
-  { technology: "React Native", proficiency: 75 },
   { technology: "Java", proficiency: 75 },
-  { technology: "PHP", proficiency: 70 },
-  { technology: "Python", proficiency: 70 },
-  { technology: "Swift", proficiency: 60 },
+  { technology: "SQL", proficiency: 70 },
+  { technology: "React Native", proficiency: 65 },
+  { technology: "PHP", proficiency: 60 },
+  { technology: "Python", proficiency: 50 },
+  { technology: "Swift", proficiency: 40 },
 ]
 
 export default function TechChart() {
