@@ -44,16 +44,14 @@ export default function TechTracker() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="flex flex-row my-4 mx-auto">
+              <Link href="https://git.gbrown.org/gib/Tech_Tracker_iOS"
+                className="flex flex-row mx-auto my-4"
+              >
                 <h2 className="text-lg font-semibold text-center">
                   Tech Tracker Native iOS Application
                 </h2>
-                <Link href="https://git.gbrown.org/gib/Tech_Tracker_iOS"
-                  className="my-auto"
-                >
-                  < FaGithub className="my-auto ml-2" size={22} />
-                </Link>
-              </div>
+                < FaGithub className="my-auto ml-2" size={22} />
+              </Link>
               <p className="indent-4">
                 A Native iOS Application written in Swift & Distributed to City of 
                 Gulfport IT Employees using TestFlight. This application uses APIs

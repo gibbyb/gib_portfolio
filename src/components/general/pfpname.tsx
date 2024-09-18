@@ -1,5 +1,7 @@
 "use server"
 import Image from "next/image";
+import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 
 export async function PFPName() {
   return (
@@ -11,6 +13,9 @@ export async function PFPName() {
         <h1 className="text-4xl font-bold">Gabriel Brown</h1>
         <h2 className="text-2xl font-semibold">Full Stack Developer</h2>
       </div>
+      <Link href="https://github.com/gibbyb" className="my-auto">
+        < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={36} />
+      </Link>
     </div>
   );
 }

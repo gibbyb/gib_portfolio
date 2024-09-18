@@ -13,19 +13,16 @@ export default function Fuse() {
       <Accordion type="single" collapsible className="w-5/6 md:w-1/3">
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            <div className="flex flex-row mx-auto">
-              <h1 className="text-lg md:text-2xl font-semibold text-center">
-                Fuse (React Native, Next.js, & PostgreSQL)
-              </h1>
-              <Link href="https://git.gbrown.org/gib/fuse_expo"
-                className="my-auto"
-              >
-                < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={22} />
-              </Link>
-            </div>
+            <h1 className="text-lg md:text-2xl font-semibold text-center">
+              Fuse (React Native, Next.js, & PostgreSQL)
+            </h1>
           </AccordionTrigger>
           <AccordionContent>
-            <div className="flex flex-col">
+            <div className="flex flex-col my-4 mx-auto">
+              <Link href="https://git.gbrown.org/gib/fuse_expo" className="flex flex-row mx-auto my-4">
+                <h1 className="text-lg md:text-lg font-semibold text-center mx-auto">Fuse Git Repository</h1>
+                < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={22} />
+              </Link>
               <p className="indent-4">
                 Fuse is an Expo Application that served as a way to learn React Native. This
                 application was made for my girlfriend & I in order to send each other

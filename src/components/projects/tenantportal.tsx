@@ -13,24 +13,22 @@ export default function TenantPortal() {
       <Accordion type="single" collapsible className="w-5/6 md:w-1/3">
         <AccordionItem value="item-1">
           <AccordionTrigger>
-            <div className="flex flex-row mx-auto">
-              <h1 className="text-lg md:text-2xl font-semibold text-center mx-auto">
-                Tenant Portal (Next.js & PostgreSQL)
-              </h1>
-              <Link href="https://git.gbrown.org/gib/rent_portal"
-                className="my-auto"
-              >
-                < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={22} />
-              </Link>
-            </div>
+            <h1 className="text-lg md:text-2xl font-semibold text-center mx-auto">
+              Tenant Portal (Next.js & PostgreSQL)
+            </h1>
           </AccordionTrigger>
           <AccordionContent>
             <div className="flex flex-col items-center justify-center">
               <div className="flex flex-row my-4 mx-auto">
-                <Link href="https://tenantportal.gibbyb.com">
-                  <h2 className="text-lg font-semibold text-center underline hover:text-blue-500">
-                    Tenant Portal Website
+                <Link href="https://tenantportal.gbrown.org">
+                  <h2 className="text-lg font-semibold text-center">
+                    Tenant Portal Web Application
                   </h2>
+                </Link>
+                <Link href="https://git.gbrown.org/gib/rent_portal"
+                  className="my-auto"
+                  >
+                  < FaGithub className="my-auto ml-2 mr-8 md:mr-0" size={22} />
                 </Link>
               </div>
               <p className="indent-4 items-center justify-center">
