@@ -24,7 +24,6 @@ export default function HomePage() {
       < TechChart />
       <h1 className="text-3xl font-semibold text-center my-8">Projects</h1>
       < TechTracker />
-      < Fuse />
       < Sunhat />
       < TenantPortal />
       < WiredWorld />
