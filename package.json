@@ -12,7 +12,8 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "go": "next dev"
+    "goprod": "git pull && next build && next start",
+    "go": "git pull && next dev"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
