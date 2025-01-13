@@ -11,9 +11,7 @@
     "db:studio": "drizzle-kit studio",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start",
-    "goprod": "next build && next start",
-    "go": "git pull docker master && next dev"
+    "start": "next start"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
