@@ -20,7 +20,7 @@ export default function TenantPortal() {
           <AccordionContent>
             <div className="flex flex-col items-center justify-center">
               <div className="flex flex-row my-4 mx-auto">
-                <Link href="https://tenantportal.gbrown.org">
+                <Link href="https://magnolia.gbrown.org">
                   <h2 className="text-lg font-semibold text-center">
                     Tenant Portal Web Application
                   </h2>
